@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Title for this page that shows up in the tab window in the browswer. -->
+    <title>Home</title>
+</head>
+<body>
+    <!-- This is where the navigation bar will go, page links, and the search bar will go. -->
+    <header>
+        <div id="desktopNav">
+            <span id="logo" onclick="window.location.href = 'index.html'">
+                <h4>C&A</h4>
+            </span>
+            <p>This is where the nav bar goes.</p>
+        </div>
+    </header>
+
+    <!-- Under the main catgeory is where all of the data will go on this page. For the
+    Index.html page this will include how we developed the cook book, our favorite dishes to make and maybe links?
+    Still under devolopment. -->
+    <main>
+        <h1 id="HomeHeading">Chance and Anna's Cookbook</h1>
+        <div id="Cooking Intro"></div>
+        <div>
+            <a href="RecipieTest1.html">R Test</a>
+        </div>
+    </main>
+
+    <!-- this is the footer. Not sure what will go here, but might be useful -->
+    <footer>
+        <p>This is where the footer goes.</p>
+    </footer>
+    
+</body>
+
+<script>
+    var cookingIntroP = document.createElement("p");
+    var cookingintroData = document.createTextNode("Welcome to the cookbook!");
+    var CookingIntroElement = document.getElementById("Cooking Intro");
+    CookingIntroElement.appendChild(cookingintroData);
+</script>
+</html>

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href="Recipes.css">
+    <link rel="stylesheet" href="index.css">
     
     <!-- Title for the webpage -->
     <title>Recipe Test</title>
@@ -11,24 +14,29 @@
 <body>
     <!-- Header includes the nav bar, the logo and anything else that might be needed. -->
     <header>
-        <div id="desktopNav">
-            <span id="logo" onclick="window.location.href = 'index.html'">
-                <h4>C&A</h4>
-            </span>
-            
-            <p>This is where the nav bar goes.</p>
-
-        </div>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="RecipieTest1.html">Recipe1</a>
+            <a href="#">Suggestions</a>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>   
         
     </header>
 
     <!-- This is where the main content will go for this pages's recipes. -->
     <main>
-        <h1>Creamy Cajon Chicken Pasta</h1>
+        <h1>Creamy Cajun Chicken Pasta</h1>
         <!-- Div here will start the recipe page -->
         <div id="recipe contents">
             <!-- image goes here.  -->
-            <!-- <div>might want to add an image here.</div> -->
+            <div>
+                <img src="./Images/RecipeTest1.png" width="500" height="800" alt="dinnerDish1">
+            </div>
             <div id="ingredients">
                 <!-- This might be a good place for javascript -->
                 <li>ingredient 1</li>

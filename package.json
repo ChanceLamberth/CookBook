@@ -1,0 +1,22 @@
+{
+  "name": "cookbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanceLamberth/CookBook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChanceLamberth/CookBook/issues"
+  },
+  "homepage": "https://github.com/ChanceLamberth/CookBook#readme",
+  "dependencies": {
+    "firebase": "^8.5.0"
+  }
+}
